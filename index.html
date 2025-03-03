@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta lang="es">
+        <title>Quiz</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="practica 6.css">
+    </head>
+    <body>
+        <header>
+            <h1>Quiz</h1>
+        </header>
+        <main>
+            <p class="descripcion">Este es un pequeño Quiz sobre DHPL, cada pregunta tiene un valor de 2 puntos.</p>
+            <p class="descripcion">HAZ TU MEJOR ESFUERZO PARA OBTENER LA MAXIMA PUNTUACION!!</p>
+            <div class="contenedor">
+                <section id="p0">
+                    <h3>1. Binario ¿Cuanto es 10010+1001?</h3>
+                    <label>
+                        <input type="radio" value="1" name="p0" onclick="respuesta(0,this)"> <h6>10021</h6>
+                    </label>
+                    <label>
+                        <input type="radio" value="2" name="p0" onclick="respuesta(0,this)"> <h6>11011</h6>
+                    </label>
+                    <label>
+                        <input type="radio" value="3" name="p0" onclick="respuesta(0,this)"> <h6>11010</h6>
+                    </label>
+                    <label>
+                        <input type="radio" value="4" name="p0" onclick="respuesta(0,this)"> <h6>11000</h6>
+                    </label>
+                </section>
+                <section id="p1">
+                    <h3>2. Binario ¿Cuanto es 11111101-011111?</h3>
+                    <label>
+                        <input type="radio" value="1" name="p1" onclick="respuesta(1,this)"> <h6>1110101</h6>
+                    </label>
+                    <label>
+                        <input type="radio" value="2" name="p1" onclick="respuesta(1,this)"> <h6>1101101</h6>
+                    </label>
+                    <label>
+                        <input type="radio" value="3" name="p1" onclick="respuesta(1,this)"> <h6>1101111</h6>
+                    </label>
+                    <label>
+                        <input type="radio" value="4" name="p1" onclick="respuesta(1,this)"> <h6>1110010</h6>
+                    </label>
+                </section>
+                <section id="p2">
+                    <h3>3. ¿Cuál de estas afirmaciones es verdadera para una ciudad donde eres mayor de edad a los 18?</h3>
+                    <label>
+                        <input type="radio" value="1" name="p2" onclick="respuesta(2,this)"> <h6>∀x (x persona con 18 años → x es un niño)</h6>
+                    </label>
+                    <label>
+                        <input type="radio" value="2" name="p2" onclick="respuesta(2,this)"> <h6>∀x (x persona con 18 años → x puede ser presidente)</h6>
+                    </label>
+                    <label>
+                        <input type="radio" value="3" name="p2" onclick="respuesta(2,this)"> <h6>∀x (x persona con 18 años → x va a la escuela)</h6>
+                    </label>
+                    <label>
+                        <input type="radio" value="4" name="p2" onclick="respuesta(2,this)"> <h6>∀x (x persona con 18 años → x es un adulto)</h6>
+                    </label>
+                </section>
+                <section id="p3">
+                    <h3>4. Binario a decimal: 101110101</h3>
+                    <label>
+                        <input type="radio" value="1" name="p3" onclick="respuesta(3,this)"> <h6>47</h6>
+                    </label>
+                    <label>
+                        <input type="radio" value="2" name="p3" onclick="respuesta(3,this)"> <h6>58</h6>
+                    </label>
+                    <label>
+                        <input type="radio" value="3" name="p3" onclick="respuesta(3,this)"> <h6>51e</h6>
+                    </label>
+                    <label>
+                        <input type="radio" value="4" name="p3" onclick="respuesta(3,this)"> <h6>89</h6>
+                    </label>
+                </section>
+                <section id="p4">
+                    <h3>5. Binario a decimal¿11000100101?</h3>
+                    <label>
+                        <input type="radio" value="1" name="p4" onclick="respuesta(4,this)"> <h6>417</h6>
+                    </label>
+                    <label>
+                        <input type="radio" value="2" name="p4" onclick="respuesta(4,this)"> <h6>53</h6>
+                    </label>
+                    <label>
+                        <input type="radio" value="3" name="p4" onclick="respuesta(4,this)"> <h6>78</h6>
+                    </label>
+                    <label>
+                        <input type="radio" value="4" name="p4" onclick="respuesta(4,this)"> <h6>93</h6> 
+                    </label>
+                </section>
+                <section id="p5">
+                    <h3>6. Decimal a Hexadecimal ¿525 10?</h3>
+                    <label>
+                        <input type="radio" value="1" name="p5" onclick="respuesta(5,this)"> <h6>5A 16</h6>
+                    </label>
+                    <label>
+                        <input type="radio" value="2" name="p5" onclick="respuesta(5,this)"> <h6>D2 16</h6>
+                    </label>
+                    <label>
+                        <input type="radio" value="3" name="p5" onclick="respuesta(5,this)"> <h6>AB3 16</h6>
+                    </label>
+                    <label>
+                        <input type="radio" value="4" name="p5" onclick="respuesta(5,this)"> <h6>8 10</h6> 
+                    </label>
+                </section>
+                <section id="p6">
+                    <h3>7. Decimal a Hexadecimal: 5208 10</h3>
+                    <label>
+                        <input type="radio" value="1" name="p6" onclick="respuesta(6,this)"> <h6>9D 16</h6>
+                    </label>
+                    <label>
+                        <input type="radio" value="2" name="p6" onclick="respuesta(6,this)"> <h6>AD7 16</h6>
+                    </label>
+                    <label>
+                        <input type="radio" value="3" name="p6" onclick="respuesta(6,this)"> <h6>9CC 13</h6>
+                    </label>
+                    <label>
+                        <input type="radio" value="4" name="p6" onclick="respuesta(6,this)"> <h6>9CC1 16</h6> 
+                    </label>
+                </section>
+                <section id="p7">
+                    <h3>8. ¿Cuál de estas afirmaciones es verdadera para “A todos los hombres les gusta el futbol?</h3>
+                    <label>
+                        <input type="radio" value="1" name="p7" onclick="respuesta(7,this)"> <h6>∀x (x “h”→ x les gusta el futbol)</h6>
+                    </label>
+                    <label>
+                        <input type="radio" value="2" name="p7" onclick="respuesta(7,this)"> <h6>∀x (x “h”→ x les gusta el deporte)</h6>
+                    </label>
+                    <label>
+                        <input type="radio" value="3" name="p7" onclick="respuesta(7,this)"> <h6>∀x (x “h”→ x juegan futbol)</h6>
+                    </label>
+                    <label>
+                        <input type="radio" value="4" name="p7" onclick="respuesta(7,this)"> <h6>365 días con 7 horas</h6> 
+                    </label>
+                </section>
+                <section id="p8">
+                    <h3>9. Qué método consiste en una sucesión de pasos que van desde la comprensión de un problema hasta la evaluación de los procedimientos empleados en un ejercicio.</h3>
+                    <label>
+                        <input type="radio" value="1" name="p8" onclick="respuesta(8,this)"> <h6>Cientifico</h6>
+                    </label>
+                    <label>
+                        <input type="radio" value="2" name="p8" onclick="respuesta(8,this)"> <h6>Polya</h6>
+                    </label>
+                    <label>
+                        <input type="radio" value="3" name="p8" onclick="respuesta(8,this)"> <h6>Resolución de problemas</h6>
+                    </label>
+                    <label>
+                        <input type="radio" value="4" name="p8" onclick="respuesta(8,this)"> <h6>La chicharronera</h6> 
+                    </label>
+                </section>
+                <section id="p9">
+                    <h3>10. Que significa las siglas EP y que es</h3>
+                    <label>
+                        <input type="radio" value="1" name="p9" onclick="respuesta(9,this)"> <h6>Esquema Propocional, es todo expresión donde aparece una variable(letra) o valor cambiante</h6>
+                    </label>
+                    <label>
+                        <input type="radio" value="2" name="p9" onclick="respuesta(9,this)"> <h6>Esquema Proporcional, expresión de un valor fijo</h6>
+                    </label>
+                    <label>
+                        <input type="radio" value="3" name="p9" onclick="respuesta(9,this)"> <h6>Evaluación Proposicional, forma de expresión de variables del banco.</h6>
+                    </label>
+                    <label>
+                        <input type="radio" value="4" name="p9" onclick="respuesta(9,this)"> <h6>Evasión Preescolar, expresión artística en contra de la programación.</h6> 
+                    </label>
+                </section>
+                
+
+                <div class="center">
+                    <input class="enviar" type="submit" value="REVISAR" onclick="revisar()">
+                </div>
+                <div class="cuadro">
+                    <h2>Resultado: <span id="resultado"></span></h2>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p class="a">Diego Antunez Ramirez - Miguel Ramirez - Diego Mendivil</p>
+        </footer>
+    </body>
+    <script src="practica 6.js"></script>
+</html>

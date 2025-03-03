@@ -1,0 +1,137 @@
+header{
+    background-color: #01081E;
+}
+
+h1{
+    color: #FFFF;
+    font-size: 80px;
+    padding: 20px;
+}
+
+#titulo{
+    float: right;
+    padding: 3px 10px;
+    text-decoration: none;
+    font-family: fantasy;
+    color: yellowgreen;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+#titulo:hover{
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+main{
+    background: linear-gradient(220.55deg, #10122e 0%, #081e44 100%);
+}
+
+.descripcion{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 20px;
+}
+
+.contenedor{
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+}
+
+section{
+    border: 2px solid white;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+label{
+    display: flex;
+    padding: 7px;
+    cursor: pointer;
+    margin-bottom: 3px;
+}
+
+label:hover{
+    background-color: #3763af;
+}
+
+h3{
+    color: white;
+    font-size: 30px;
+    padding: 10px 10px;
+}
+
+h6{
+    font-size: 20px;
+    padding: 10px 5px 10px 5px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.enviar{
+    color: white;
+    font-size: 40px;
+    border: 3px solid rgb(25, 218, 25);
+    background: rgb(25, 218, 25);
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+
+.enviar:hover{
+    transform: scale(1.1);
+}
+
+.cuadro{
+    border: 2px solid white;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+h2{
+    font-size: 20px;
+    color: aliceblue;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;;
+}
+
+#resultado{
+    color: red;
+    font-size: 20px;
+}
+
+footer{
+    text-align: center;
+    background: #081e44;
+    padding: 40px;
+}
+
+.a{
+    color: aliceblue;
+    font-size: 13px;
+    margin: 20px;
+}
+
+body::-webkit-scrollbar{
+    width: 10px;
+    color: #565656;
+}
+
+body::-webkit-scrollbar-thumb{
+    background:#4d4b4b;
+    border-radius: 50px;
+}
+
+body::-webkit-scrollbar-thumb:hover{
+    background: #070713;
+}

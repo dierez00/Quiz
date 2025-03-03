@@ -1,2 +1,1 @@
 # Quiz
-Quiz  - General Culture
